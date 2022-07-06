@@ -25,12 +25,12 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("SetTextI18n")
     public void Mundobtn(View view) {
         TextView layout = findViewById(R.id.layout1);
-        layout.setText("Mundo");
+        layout.setText("Rojo");
     }
 
     @SuppressLint("SetTextI18n")
     public void Holabtn(View view) {
         TextView layout = findViewById(R.id.layout1);
-        layout.setText("Hola");
+        layout.setText("Azul");
     }
 }

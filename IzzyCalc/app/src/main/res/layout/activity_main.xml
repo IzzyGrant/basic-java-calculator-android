@@ -7,6 +7,7 @@
     android:background="@color/cardview_dark_background"
     tools:context=".MainActivity">
 
+
     <TextView
         android:id="@+id/layout1"
         android:layout_width="404dp"
@@ -57,7 +58,8 @@
         android:text="@string/h2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/layout1" />
+        app:layout_constraintTop_toBottomOf="@+id/layout1"
+        tools:ignore="UsingOnClickInXml" />
 
     <Button
         android:id="@+id/button4"
@@ -105,12 +107,12 @@
         android:layout_height="84dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="32dp"
-        android:clickable="true"
         android:focusable="auto"
         android:onClick="Holabtn"
         android:text="@string/h1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/layout1" />
+        app:layout_constraintTop_toBottomOf="@+id/layout1"
+        tools:ignore="UsingOnClickInXml" />
 
     <Button
         android:id="@+id/button5"

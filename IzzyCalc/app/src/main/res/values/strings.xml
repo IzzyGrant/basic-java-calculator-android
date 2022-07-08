@@ -12,7 +12,7 @@
     <string name="tecl09">9</string>
     <string name="tecl00">0</string>
     <string name="err">Error</string>
-    <string name="h1">Azul</string>
-    <string name="h2">Rojo</string>
+    <string name="h1">Resultado</string>
+    <string name="h2">*</string>
 
 </resources>

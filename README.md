@@ -1,7 +1,7 @@
 # basic-java-calculator-android
 Calculadora básica en desarrollo bajo Android Studio y Java.
 
-![Image text](https://github.com/IzzyGrant/basic-java-calculator-android/blob/main/IzzyCalc/calc.png)
+<img src="https://github.com/IzzyGrant/basic-java-calculator-android/blob/main/IzzyCalc/calc.png" alt="drawing" width="500"/>
 
 ### About / Acerca de...
 Android Studio Arctic Fox | 2020.3.1 Patch 4

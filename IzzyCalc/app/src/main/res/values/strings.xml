@@ -12,7 +12,12 @@
     <string name="tecl09">9</string>
     <string name="tecl00">0</string>
     <string name="err">Error</string>
-    <string name="h1">Azul</string>
-    <string name="h2">Rojo</string>
+    <string name="resultado">Resultado</string>
+    <string name="mult">*</string>
+    <string name="div">/</string>
+    <string name="resta">-</string>
+    <string name="suma">+</string>
+    <string name="ac">AC</string>
+    <string name="decimal">.</string>
 
 </resources>

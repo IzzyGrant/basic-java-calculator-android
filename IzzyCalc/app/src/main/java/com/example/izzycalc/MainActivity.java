@@ -33,4 +33,10 @@ public class MainActivity extends AppCompatActivity {
         TextView layout = findViewById(R.id.layout1);
         layout.setText("Azul");
     }
+    @SuppressLint("SetTextI18n")
+    public void teclaAC(View view){
+        TextView layout = findViewById(R.id.layout1);
+        layout.setText("0");
+    }
+
 }

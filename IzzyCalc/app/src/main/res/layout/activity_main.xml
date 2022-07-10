@@ -129,7 +129,7 @@
        android:backgroundTint="@color/teal_700"
        android:focusable="auto"
        android:onClick="Holabtn"
-       android:text="@string/h1"
+       android:text="@string/resultado"
        app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintTop_toBottomOf="@+id/layout1"
        tools:ignore="UsingOnClickInXml,TextContrastCheck" />
@@ -142,7 +142,7 @@
        android:layout_marginTop="28dp"
        android:backgroundTint="@color/azuloperador"
        android:onClick="Mundobtn"
-       android:text="@string/h2"
+       android:text="@string/mult"
        app:layout_constraintStart_toEndOf="@+id/button2"
        app:layout_constraintTop_toBottomOf="@+id/layout1"
        tools:ignore="UsingOnClickInXml" />
@@ -185,7 +185,7 @@
        android:layout_height="100dp"
        android:layout_marginStart="8dp"
        android:layout_marginTop="2dp"
-       android:text="Button"
+       android:text="@string/decimal"
        app:layout_constraintStart_toEndOf="@+id/button3"
        app:layout_constraintTop_toBottomOf="@+id/button5" />
 
@@ -196,7 +196,7 @@
        android:layout_marginStart="8dp"
        android:layout_marginTop="28dp"
        android:backgroundTint="@color/azuloperador"
-       android:text="Button"
+       android:text="@string/div"
        app:layout_constraintStart_toEndOf="@+id/button"
        app:layout_constraintTop_toBottomOf="@+id/layout1" />
 
@@ -207,7 +207,7 @@
        android:layout_marginStart="8dp"
        android:layout_marginTop="8dp"
        android:backgroundTint="@color/azuloperador"
-       android:text="Button"
+       android:text="@string/resta"
        app:layout_constraintStart_toEndOf="@+id/button12"
        app:layout_constraintTop_toBottomOf="@+id/button14" />
 
@@ -218,7 +218,7 @@
        android:layout_marginStart="8dp"
        android:layout_marginTop="2dp"
        android:backgroundTint="@color/azuloperador"
-       android:text="Button"
+       android:text="@string/suma"
        app:layout_constraintStart_toEndOf="@+id/button9"
        app:layout_constraintTop_toBottomOf="@+id/button15" />
 
@@ -229,8 +229,10 @@
        android:layout_marginStart="8dp"
        android:layout_marginTop="2dp"
        android:backgroundTint="@color/design_default_color_error"
-       android:text="Button"
+       android:onClick="teclaAC"
+       android:text="@string/ac"
        app:layout_constraintStart_toEndOf="@+id/button5"
-       app:layout_constraintTop_toBottomOf="@+id/button16" />
+       app:layout_constraintTop_toBottomOf="@+id/button16"
+       tools:ignore="UsingOnClickInXml,TextContrastCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

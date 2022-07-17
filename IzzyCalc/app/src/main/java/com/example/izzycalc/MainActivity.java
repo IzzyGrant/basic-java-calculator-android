@@ -168,7 +168,12 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("SetTextI18n")
     public void tecla0(View view){
         TextView layout = findViewById(R.id.layout1);
-        layout.setText("00");
+        char cero = '0';
+        if (displaytxt == " "){
+            displaytxt = "";
+            displaytxt = displaytxt + cero;
+        } else { displaytxt = displaytxt + cero;}
+        layout.setText(displaytxt);
     }
 
     @SuppressLint("SetTextI18n")
@@ -180,13 +185,23 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("SetTextI18n")
     public void tecla1(View view){
         TextView layout = findViewById(R.id.layout1);
-        layout.setText("1");
+        char uno = '1';
+        if (displaytxt == " "){
+            displaytxt = "";
+            displaytxt = displaytxt + uno;
+        } else { displaytxt = displaytxt + uno;}
+        layout.setText(displaytxt);
     }
 
     @SuppressLint("SetTextI18n")
     public void tecla2(View view){
         TextView layout = findViewById(R.id.layout1);
-        layout.setText("2");
+        char dos = '2';
+        if (displaytxt == " "){
+            displaytxt = "";
+            displaytxt = displaytxt + dos;
+        } else { displaytxt = displaytxt + dos;}
+        layout.setText(displaytxt);
     }
 
     @SuppressLint("SetTextI18n")

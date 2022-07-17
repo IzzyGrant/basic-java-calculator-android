@@ -133,7 +133,25 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("SetTextI18n")
     public void multiplicar(View view) {
         TextView layout = findViewById(R.id.layout1);
-        layout.setText("Rojo");
+        layout.setText("*");
+    }
+
+    @SuppressLint("SetTextI18n")
+    public void dividir(View view) {
+        TextView layout = findViewById(R.id.layout1);
+        layout.setText("/");
+    }
+
+    @SuppressLint("SetTextI18n")
+    public void sumar(View view) {
+        TextView layout = findViewById(R.id.layout1);
+        layout.setText("+");
+    }
+
+    @SuppressLint("SetTextI18n")
+    public void restar(View view) {
+        TextView layout = findViewById(R.id.layout1);
+        layout.setText("-");
     }
 
     @SuppressLint("SetTextI18n")

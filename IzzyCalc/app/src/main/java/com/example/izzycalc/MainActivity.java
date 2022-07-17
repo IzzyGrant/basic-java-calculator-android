@@ -144,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("SetTextI18n")
     public void teclaAC(View view){
         TextView layout = findViewById(R.id.layout1);
-        layout.setText("0");
+        layout.setText(" ");
     }
 
     @SuppressLint("SetTextI18n")
@@ -163,5 +163,53 @@ public class MainActivity extends AppCompatActivity {
     public void tecla1(View view){
         TextView layout = findViewById(R.id.layout1);
         layout.setText("1");
+    }
+
+    @SuppressLint("SetTextI18n")
+    public void tecla2(View view){
+        TextView layout = findViewById(R.id.layout1);
+        layout.setText("2");
+    }
+
+    @SuppressLint("SetTextI18n")
+    public void tecla3(View view){
+        TextView layout = findViewById(R.id.layout1);
+        layout.setText("3");
+    }
+
+    @SuppressLint("SetTextI18n")
+    public void tecla4(View view){
+        TextView layout = findViewById(R.id.layout1);
+        layout.setText("4");
+    }
+
+    @SuppressLint("SetTextI18n")
+    public void tecla5(View view){
+        TextView layout = findViewById(R.id.layout1);
+        layout.setText("5");
+    }
+
+    @SuppressLint("SetTextI18n")
+    public void tecla6(View view){
+        TextView layout = findViewById(R.id.layout1);
+        layout.setText("6");
+    }
+
+    @SuppressLint("SetTextI18n")
+    public void tecla7(View view){
+        TextView layout = findViewById(R.id.layout1);
+        layout.setText("7");
+    }
+
+    @SuppressLint("SetTextI18n")
+    public void tecla8(View view){
+        TextView layout = findViewById(R.id.layout1);
+        layout.setText("8");
+    }
+
+    @SuppressLint("SetTextI18n")
+    public void tecla9(View view){
+        TextView layout = findViewById(R.id.layout1);
+        layout.setText("9");
     }
 }

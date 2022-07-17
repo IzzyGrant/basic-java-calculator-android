@@ -96,9 +96,11 @@
        android:layout_height="100dp"
        android:layout_marginStart="8dp"
        android:layout_marginTop="2dp"
+       android:onClick="tecla2"
        android:text="@string/tecl02"
        app:layout_constraintStart_toEndOf="@+id/button4"
-       app:layout_constraintTop_toBottomOf="@+id/button8" />
+       app:layout_constraintTop_toBottomOf="@+id/button8"
+       tools:ignore="DuplicateSpeakableTextCheck, UsingOnClickInXml" />
 
    <Button
        android:id="@+id/button4"

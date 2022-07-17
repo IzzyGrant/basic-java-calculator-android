@@ -106,9 +106,11 @@
        android:layout_height="100dp"
        android:layout_marginStart="8dp"
        android:layout_marginTop="2dp"
+       android:onClick="tecla1"
        android:text="@string/tecl01"
        app:layout_constraintStart_toStartOf="parent"
-       app:layout_constraintTop_toBottomOf="@+id/button7" />
+       app:layout_constraintTop_toBottomOf="@+id/button7"
+       tools:ignore="DuplicateSpeakableTextCheck, UsingOnClickInXml" />
 
    <Button
        android:id="@+id/button3"
@@ -116,10 +118,11 @@
        android:layout_height="100dp"
        android:layout_marginStart="8dp"
        android:layout_marginTop="2dp"
+       android:onClick="tecla0"
        android:text="@string/tecl00"
        app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintTop_toBottomOf="@+id/button4"
-       tools:ignore="DuplicateSpeakableTextCheck" />
+       tools:ignore="DuplicateSpeakableTextCheck, UsingOnClickInXml" />
 
    <Button
        android:id="@+id/button2"
@@ -129,7 +132,7 @@
        android:layout_marginTop="28dp"
        android:backgroundTint="@color/teal_700"
        android:focusable="auto"
-       android:onClick="Holabtn"
+       android:onClick="resultado"
        android:text="@string/resultado"
        app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintTop_toBottomOf="@+id/layout1"
@@ -142,7 +145,7 @@
        android:layout_marginStart="8dp"
        android:layout_marginTop="28dp"
        android:backgroundTint="@color/azuloperador"
-       android:onClick="Mundobtn"
+       android:onClick="multiplicar"
        android:text="@string/mult"
        app:layout_constraintStart_toEndOf="@+id/button2"
        app:layout_constraintTop_toBottomOf="@+id/layout1"
@@ -189,9 +192,11 @@
        android:layout_height="100dp"
        android:layout_marginStart="8dp"
        android:layout_marginTop="2dp"
+       android:onClick="tecladecimal"
        android:text="@string/decimal"
        app:layout_constraintStart_toEndOf="@+id/button3"
-       app:layout_constraintTop_toBottomOf="@+id/button5" />
+       app:layout_constraintTop_toBottomOf="@+id/button5"
+       tools:ignore="DuplicateSpeakableTextCheck, UsingOnClickInXml" />
 
    <Button
        android:id="@+id/button14"

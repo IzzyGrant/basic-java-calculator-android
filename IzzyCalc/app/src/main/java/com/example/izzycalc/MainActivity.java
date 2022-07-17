@@ -131,13 +131,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @SuppressLint("SetTextI18n")
-    public void Mundobtn(View view) {
+    public void multiplicar(View view) {
         TextView layout = findViewById(R.id.layout1);
         layout.setText("Rojo");
     }
 
     @SuppressLint("SetTextI18n")
-    public void Holabtn(View view) {
+    public void resultado(View view) {
         TextView layout = findViewById(R.id.layout1);
         layout.setText("Azul");
     }
@@ -147,4 +147,21 @@ public class MainActivity extends AppCompatActivity {
         layout.setText("0");
     }
 
+    @SuppressLint("SetTextI18n")
+    public void tecla0(View view){
+        TextView layout = findViewById(R.id.layout1);
+        layout.setText("00");
+    }
+
+    @SuppressLint("SetTextI18n")
+    public void tecladecimal(View view){
+        TextView layout = findViewById(R.id.layout1);
+        layout.setText(".");
+    }
+
+    @SuppressLint("SetTextI18n")
+    public void tecla1(View view){
+        TextView layout = findViewById(R.id.layout1);
+        layout.setText("1");
+    }
 }

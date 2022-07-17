@@ -169,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
     public void tecla0(View view){
         TextView layout = findViewById(R.id.layout1);
         char cero = '0';
-        if (displaytxt == " "){
+        if (displaytxt.equals(" ")){
             displaytxt = "";
             displaytxt = displaytxt + cero;
         } else { displaytxt = displaytxt + cero;}
@@ -186,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
     public void tecla1(View view){
         TextView layout = findViewById(R.id.layout1);
         char uno = '1';
-        if (displaytxt == " "){
+        if (displaytxt.equals(" ")){
             displaytxt = "";
             displaytxt = displaytxt + uno;
         } else { displaytxt = displaytxt + uno;}
@@ -197,7 +197,7 @@ public class MainActivity extends AppCompatActivity {
     public void tecla2(View view){
         TextView layout = findViewById(R.id.layout1);
         char dos = '2';
-        if (displaytxt == " "){
+        if (displaytxt.equals(" ")){
             displaytxt = "";
             displaytxt = displaytxt + dos;
         } else { displaytxt = displaytxt + dos;}

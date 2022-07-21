@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import java.text.DecimalFormat;
 import java.util.Arrays;
 
 
@@ -145,7 +146,22 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("SetTextI18n")
     public void sumar(View view) {
         TextView layout = findViewById(R.id.layout1);
-        layout.setText("+");
+        TextView layout2 = findViewById(R.id.sublayout);
+        char suma = '+';
+        if(ifOperador == false){
+            if (displaytxt != " "){displaytxt = displaytxt + suma;
+                layout.setText(displaytxt);
+                ifDot = false;
+                ifOperador = true;
+            }
+
+        } else {
+            DecimalFormat format = new DecimalFormat("0.###"); // mostrara tres lugares de decimales
+            double resultado = operacion(displaytxt); // uso de case y metodo para operacion
+            layout2.setText(displaytxt + " ="); // Se guarda la operacion previamente realizada en subpantalla(digitos azules)
+            displaytxt = String.valueOf(format.format(resultado) + "+");
+            layout.setText(displaytxt); // muestra el resultado final
+        }
     }
 
     @SuppressLint("SetTextI18n")
@@ -162,8 +178,10 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("SetTextI18n")
     public void teclaAC(View view){
         TextView layout = findViewById(R.id.layout1);
+        TextView layout2 = findViewById(R.id.sublayout);
         displaytxt = " ";
         layout.setText(displaytxt);
+        layout2.setText("0");
         ifOperador = false;
         ifDot = false;
         minus = false;

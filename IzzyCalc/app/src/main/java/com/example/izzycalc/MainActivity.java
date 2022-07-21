@@ -162,7 +162,11 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("SetTextI18n")
     public void teclaAC(View view){
         TextView layout = findViewById(R.id.layout1);
-        layout.setText(" ");
+        displaytxt = " ";
+        layout.setText(displaytxt);
+        ifOperador = false;
+        ifDot = false;
+        minus = false;
     }
 
     @SuppressLint("SetTextI18n")
@@ -179,7 +183,18 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("SetTextI18n")
     public void tecladecimal(View view){
         TextView layout = findViewById(R.id.layout1);
-        layout.setText(".");
+
+        char punto = '.';
+
+        if(ifDot == false){
+
+            if (displaytxt == " "){
+                displaytxt = "";
+                displaytxt = displaytxt + punto;
+            } else { displaytxt = displaytxt + punto;}
+            layout.setText(displaytxt);
+            ifDot = true;
+        }
     }
 
     @SuppressLint("SetTextI18n")

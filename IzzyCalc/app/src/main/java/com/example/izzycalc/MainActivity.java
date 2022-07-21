@@ -222,25 +222,45 @@ public class MainActivity extends AppCompatActivity {
     @SuppressLint("SetTextI18n")
     public void tecla3(View view){
         TextView layout = findViewById(R.id.layout1);
-        layout.setText("3");
+        char tres = '3';
+        if (displaytxt.equals(" ")){
+            displaytxt = "";
+            displaytxt = displaytxt + tres;
+        } else { displaytxt = displaytxt + tres;}
+        layout.setText(displaytxt);
     }
 
     @SuppressLint("SetTextI18n")
     public void tecla4(View view){
         TextView layout = findViewById(R.id.layout1);
-        layout.setText("4");
+        char cuatro = '4';
+        if (displaytxt.equals(" ")){
+            displaytxt = "";
+            displaytxt = displaytxt + cuatro;
+        } else { displaytxt = displaytxt + cuatro;}
+        layout.setText(displaytxt);
     }
 
     @SuppressLint("SetTextI18n")
     public void tecla5(View view){
         TextView layout = findViewById(R.id.layout1);
-        layout.setText("5");
+        char cinco = '5';
+        if (displaytxt.equals(" ")){
+            displaytxt = "";
+            displaytxt = displaytxt + cinco;
+        } else { displaytxt = displaytxt + cinco;}
+        layout.setText(displaytxt);
     }
 
     @SuppressLint("SetTextI18n")
     public void tecla6(View view){
         TextView layout = findViewById(R.id.layout1);
-        layout.setText("6");
+        char seis = '6';
+        if (displaytxt.equals(" ")){
+            displaytxt = "";
+            displaytxt = displaytxt + seis;
+        } else { displaytxt = displaytxt + seis;}
+        layout.setText(displaytxt);
     }
 
     @SuppressLint("SetTextI18n")
